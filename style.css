@@ -1,0 +1,122 @@
+/* Basic CSS */
+
+body {
+  text-align: center;
+}
+
+.vision-statement {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sentence {
+  font-size: 18px;
+}
+
+.backButton {
+  margin-bottom: 80px;
+}
+.aboutButton {
+  margin-bottom: 15px;
+}
+
+.divStatement {
+  align-items: center;
+  height: 100%;
+  margin-left: 3ch;
+  margin-right: 3ch;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+.secondDiv {
+  position: relative;
+  height: 20vmin;
+  width: 90vmin;
+  background-color: #fff;
+  border-radius: 20vmin;
+  margin-bottom: 20px;
+}
+
+.lastDiv {
+  position: relative;
+  height: 20vmin;
+  width: 90vmin;
+  margin-bottom: 0px;
+}
+
+.social {
+  height: 12vmin;
+  position: absolute;
+  top: 40%;
+}
+
+.social1 {
+  height: 12vmin;
+  position: absolute;
+  left: 15vmin;
+  top: 40%;
+}
+
+.social2 {
+  height: 12vmin;
+  position: absolute;
+  top: 40%;
+  left: 40vmin;
+}
+
+.para {
+  margin-bottom: -5vmin;
+  margin-top: -3vmin;
+}
+
+.para2 {
+  margin-bottom: 3vmin;
+}
+
+.social3 {
+  height: 12vmin;
+  position: absolute;
+  top: 40%;
+  left: 60vmin;
+}
+
+.social-logo {
+  height: 12vmin;
+  border-radius: 50%;
+  position: absolute;
+  left: 2vmin;
+  top: 20%;
+}
+
+.secondDiv::before {
+  top: 0;
+}
+
+.secondDiv::after {
+  bottom: 0;
+}
+
+.App-header {
+  background-color: #1ca77d;
+  min-height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #090909;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 40%;
+}
